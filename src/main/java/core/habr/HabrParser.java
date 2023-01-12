@@ -12,7 +12,7 @@ public class HabrParser implements Parser<ArrayList<String>> {
     @Override
     public ArrayList<String> Parse(Document document) {
 
-        ArrayList<String> list = new ArrayList<String>();
+        ArrayList<String> list = new ArrayList<>();
 
         // получение текста списка статей (постов)
         Elements elements = document.getElementsByTag("a");// select("a[class^=tm-article-snippet]");

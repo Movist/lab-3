@@ -11,6 +11,9 @@ public abstract class ParserSettings {
     // начало пагинации
     protected int startPoint;
 
+    // конец пагинации
+    protected int endPoint;
+
     public int getStartPoint() {
         return startPoint;
     }
@@ -19,7 +22,5 @@ public abstract class ParserSettings {
         return endPoint;
     }
 
-    // конец пагинации
-    protected int endPoint;
 }
 
